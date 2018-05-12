@@ -19,3 +19,47 @@ Following is the process implemented to find the bounding box of a test image in
 1. Find homography in the above using DLT in least-squared sense
 1. Apply the homography obtained above on the corner points of the test image to get their corresponding positions in the collage image
 1. Draw lines between the mapped corners to get the bounding box of the test image in the collage
+
+
+# Results
+## Test Image 1
+### Top 200 Matches
+![Alt Text](https://github.com/adityajain07/Homography_DLT_RANSAC/blob/master/Matches/Matched_Keypoints_test1.jpg)
+
+### Inlier/Outlier Matches
+Green: Inlier matches  <br/>
+Red: Outlier matches  <br/>
+![Alt Text](https://github.com/adityajain07/Homography_DLT_RANSAC/blob/master/Inliers_Outliers/Inliers_Outliers_test1.jpg)
+
+### Bounding Box
+![Alt Text](https://github.com/adityajain07/Homography_DLT_RANSAC/blob/master/BoundingBox-Images/BoundingBoxBook.jpg)
+
+
+
+
+## Test Image 2
+### Top 200 Matches
+![Alt Text](https://github.com/adityajain07/Homography_DLT_RANSAC/blob/master/Matches/Matched_Keypoints_test2.jpg)
+
+### Inlier/Outlier Matches
+Green: Inlier matches  <br/>
+Red: Outlier matches  <br/>
+![Alt Text](https://github.com/adityajain07/Homography_DLT_RANSAC/blob/master/Inliers_Outliers/Inliers_Outliers_test2.jpg)
+
+### Bounding Box
+![Alt Text](https://github.com/adityajain07/Homography_DLT_RANSAC/blob/master/BoundingBox-Images/BoundingBoxBook-Test2.jpg)
+
+
+
+
+## Test Image 3
+### Top 200 Matches
+![Alt Text](https://github.com/adityajain07/Homography_DLT_RANSAC/blob/master/Matches/Matched_Keypoints_test3.jpg)
+
+### Inlier/Outlier Matches
+Green: Inlier matches  <br/>
+Red: Outlier matches  <br/>
+![Alt Text](https://github.com/adityajain07/Homography_DLT_RANSAC/blob/master/Inliers_Outliers/Inliers_Outliers_test3.jpg)
+
+### Bounding Box
+![Alt Text](https://github.com/adityajain07/Homography_DLT_RANSAC/blob/master/BoundingBox-Images/BoundingBoxBook-Test3.jpg)
